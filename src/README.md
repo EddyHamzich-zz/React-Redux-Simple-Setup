@@ -1,2 +1,2 @@
-### Files containing Redux: 
-### index.js | App.js | redux/reducerList.js | redux/rootReducer.js
+# Files containing Redux: 
+## index.js | App.js | redux/reducerList.js | redux/rootReducer.js
