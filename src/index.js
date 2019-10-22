@@ -12,10 +12,12 @@ import { persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react';
 import persistReducer from 'redux-persist/es/persistReducer';
 
+// Redux persist is a package that allows you to keep the state even after the user has left the website!
+
 const persistConfig = {
     key: "root",
     storage,
-    blacklist: ["counterReducer"] // decide which reducers you want to ignore ("" are necessary)!
+    blacklist: ["counterReducer"] // decide which reducers you want to ignore with Redux Persist ("" are necessary)!
 }
 
 // this is where we combine our rootReducer with persistedReducer!
