@@ -14,7 +14,6 @@ export const INCREMENT = () => { return {type: "INCREMENT"} }
 export const DECREMENT = () => { return {type: "DECREMENT"} }
 
 
-
 /*----- loggedReducer below -----*/
 
 export const loggedReducer = (state = false, action) => {
@@ -26,6 +25,5 @@ export const loggedReducer = (state = false, action) => {
     }
 }
 export const SIGN_IN = () => { return {type: "SIGN_IN"} }
-
 
 
