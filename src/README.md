@@ -1,2 +1,2 @@
-# Basic Setup for React + Redux
-## Files containing Redux: index.js | App.js | reducerList | rootReducer
+### Files containing Redux: 
+### index.js | App.js | redux/reducerList.js | redux/rootReducer.js
