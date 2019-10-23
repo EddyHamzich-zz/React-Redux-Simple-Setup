@@ -1,5 +1,6 @@
 
 /*----- counterReducer below -----*/
+
 export const counterReducer = (state = 0 , action) => {
     switch(action.type) {
         case "INCREMENT":
@@ -13,8 +14,8 @@ export const counterReducer = (state = 0 , action) => {
 export const INCREMENT = () => { return {type: "INCREMENT"} }
 export const DECREMENT = () => { return {type: "DECREMENT"} }
 
-
 /*----- loggedReducer below -----*/
+
 export const loggedReducer = (state = false, action) => {
     switch(action.type) {
         case "SIGN_IN":
