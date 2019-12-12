@@ -17,7 +17,7 @@ import persistReducer from 'redux-persist/es/persistReducer';
 const persistConfig = {
     key: "root",
     storage,
-    blacklist: ["counterReducer"] // decide which reducers you want to ignore with Redux Persist ("" are necessary)!
+    whitelist: ["loggedReducer"] // decide which reducers you want to use Redux Persist ("" are necessary)!
 }
 
 // this is where we combine our rootReducer with persistedReducer!
